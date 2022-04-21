@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    
+}
+body{
+    
+}
+header .container-menu{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.945);
+    align-items: center;
+    color: white;
+    
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+header nav a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.logo{
+    height: 90px;
+    width: 100px;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    padding-left: 25px;
+    text-decoration: none;
+
+}
+header nav .btn-entar{
+    background-color: transparent;
+    margin-left: 800px;
+    padding: 5px 15px;
+    padding-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+header nav .btn-entar:hover{
+    background-color: rgb(247, 42, 42);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+main{
+    color: white;
+}
+.ft-perfil{
+    height: 50px;
+    width: 50px;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.carousel-item:hover{
+    transform: scale(1.1);
+}
+.descricao{
+    padding-bottom: 20px;
+}
+.botao{
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+main{
+    background-color: black;
+}
+.container-ligas {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-ligas .hora-data{
+    background-color: black;
+    width: 100px;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 4px;
+
+}
+.lista-jogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 28px;
+
+}
+.titulo-lista{
+    padding-left: 10px;
+    
+}
+
+.jogo1{
+    background: url;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: rgb(41, 39, 39);
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 310px;
+    width: 350px;
+    cursor: pointer;
+    
+}
+.titulo-card, .descricao-card{
+    padding-left: 8px;
+}
+.img-card{
+    display: flex;
+    width: 348px;
+    height: 200px;
+    border-radius: 5px;
+}
+ 
